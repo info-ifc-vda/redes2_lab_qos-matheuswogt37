@@ -1,0 +1,2 @@
+xhost +local:docker
+docker run --rm -it -e DISPLAY=:0 -v $PWD:/ns2 -v /tmp/.X11-unix:/tmp/.X11-unix gelirettore/ns2
