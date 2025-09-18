@@ -244,8 +244,16 @@ Usando o regex "r [0-5].[0-9]{6} 1 2 tcp" foi encontrado:
 
 | Ping Nº | Timestamp Envio | Timestamp Recebimento | Latência (ms) | Observações sobre o Impacto do FTP |
 | :------ | :-------------- | :-------------------- | :------------ | :--------------------------------- |
-| 1       | 1               | 1.041005              | 0.041005      | Não houve nenhum impacto do FTP sobre o ping |
-| 2       | 1.3             | 1.34064               | 0.04064       | Não houve nenhum impacto do FTP sobre o ping |
+| 1       | 1               | 1.041005              | 0.041005      | Não houve nenhuma alteração significativa |
+| 2       | 1.3             | 1.34064               | 0.04064       | Não houve nenhuma alteração significativa |
+| 3       | 1.6             | 1.640275              | 0.040275      | Não houve nenhuma alteração significativa |
+| 4       | 1.9             | 1.940205              | 0.040205      | Não houve nenhuma alteração significativa |
+| 5       | 2.2             | 2.240205              | 0.040205      | Não houve nenhuma alteração significativa |
+| 6       | 2.5             | 2.540205              | 0.040205      | Não houve nenhuma alteração significativa |
+| 7       | 2.8             | 2.840352              | 0.040352      | Não houve nenhuma alteração significativa |
+| 8       | 3.1             | 3.140819              | 0.040819      | Não houve nenhuma alteração significativa |
+| 9       | 3.4             | 3.440205              | 0.040205      | Não houve nenhuma alteração significativa |
+| 10      | 3.7             | 3.740205              | 0.040205      | Não houve nenhuma alteração significativa |
 | ...     | ...             | ...                   | ...           | ...                                |
 
 ### **7.3. Perguntas para Refletir e Discutir**
