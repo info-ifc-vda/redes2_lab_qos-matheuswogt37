@@ -349,7 +349,6 @@ $ns run
 
 ### **Síntese do Aprendizado**
 
-*   [Escreva uma síntese dos principais aprendizados sobre a relação entre os parâmetros de QoS (latência, jitter, throughput, perda) e o desempenho de diferentes aplicações, utilizando os resultados dos experimentos. Faça um link com a **narrativa da telecirurgia** e proponha uma **solução baseada em QoS** para otimizar o desempenho das aplicações críticas nesse cenário desafiador (vídeo HD, comandos táteis, voz, dados do paciente).]
 Latência é o tempo de espera até um pacote ir do emissor até o receptor, quanto menor melhor, é importante para serviços críticos como cirurgias à distância, e até mesmo VoIP e jogos online. \
 Jitter é a variação da latência em uma comunicação, como a latência pode mudar de um pacote para outro essa taxa de mudança representa uma variação na chegada dos pacotes podendo influenciar a camada de aplicação significantemente, como uma reunião no google meet que fica travando mas só as vezes, nesses momentos a latência acaba ficando muito alta, e para poder mitigar o google meet por exemplo pode usar o jitter para diminuir a qualidade do vídeo da reunião fazendo com que menos pacotes tenham que percorrer a rede e consequentemente diminuindo a latência. \
 Throughput é a quantidade de dados por medida de tempo (ex: Mbps) passando através da rede. \
